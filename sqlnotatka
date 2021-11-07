@@ -1,0 +1,8 @@
+2021 11 07
+((team1!='GER' AND team2 ='GER') OR (team1='GER' AND team2 !='GER')) ...
+kiedy weźmiesz warunek w dwa nawiasy  wtedy wtedy warunek musi być pierwszy np
+
+    WHERE ((team1!='GER' AND team2 ='GER') OR (team1='GER' AND team2 !='GER'))
+AND teamid!='GER'
+
+bez dwóch nawiasów  robiło nam na początku warunek po OR robił się pierwszy i juz przchodziło póżniej do AND
